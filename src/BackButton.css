@@ -1,0 +1,23 @@
+.bbtn{
+    box-shadow:  0px 0px 8px rgb(0, 0, 0,0.3);
+    padding: 10px 26px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    max-width: 100px;
+    border-radius: 3px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+button{
+    background-color: white;
+    color:black;
+    outline: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+/* ShimmerCountryList.css */
+.CountryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Card.css */
+.shimmer {
+  width:  220px;
+    height: 350px;
+    margin: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.shimmerLength {
+    animation: shimmer 1.5s infinite linear;
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    background-size: 200% 100%;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}

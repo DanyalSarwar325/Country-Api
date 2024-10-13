@@ -1,0 +1,23 @@
+.Card{
+    max-width: 220px;
+    box-shadow: 0 4px 8px 4px  rgb(0, 0, 0,0.3);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    background-color: hsl(207, 26%, 17%); ;
+    color: white;
+    
+
+}
+.heading{
+    margin-block: 16px;
+}
+.Card img{
+    
+    width: 100%;
+    
+}
+.Text{
+    padding-left: 16px;
+}

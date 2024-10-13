@@ -1,0 +1,17 @@
+.CountryContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+
+/* LAst changes */
+body{
+    background-color: hsl(207, 26%, 17%); ;
+    color: white;
+}

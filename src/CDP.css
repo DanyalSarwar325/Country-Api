@@ -1,0 +1,62 @@
+.mainPage{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   gap: 120px;
+   max-width: 1200px;
+   margin-inline:auto;
+   
+}
+
+.ImageDiv{
+    max-width: 400px;
+   
+    
+   
+    
+}
+.ImageDiv img{
+    width: 100%;
+    padding: 15px 15px;
+   
+}
+.countryDescription{
+    max-width: 700px;
+}
+
+ .second{
+    padding-top: 40px;
+}
+.OuterContent{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    
+    max-width: 600px;
+    padding-right: 40px;
+}
+.OuterContent p{
+    padding-block: 5px;
+
+}
+.lastrow{
+   margin-top: 20px;
+    display: flex;
+    max-width: 350px;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+@media(max-width:800px){
+    .mainPage{
+        flex-direction: column;
+        gap: unset;
+    }
+    .OuterContent{
+        flex-direction: column;
+        margin-left: 20px;
+        gap: unset;
+    }
+}

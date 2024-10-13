@@ -1,0 +1,18 @@
+/* .CountryContainer {
+    --background-color: white;
+    --text-color: black;
+    --elements-color: white;
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+} */
+
+.CountryContainer{
+    --background-color: hsl(207, 26%, 17%); 
+    --text-color: white;
+    --elements-color: hsl(209, 23%, 22%);
+}
+dark{
+    background-color: hsl(207, 26%, 17%); ;
+}
